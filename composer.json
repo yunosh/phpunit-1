@@ -3,8 +3,8 @@
     "description": "Test Dependency",
     "type": "library",
     "require": {
-        "php": "^5",
-        "phpunit/phpunit": "^4"
+        "php": "^5.6|^7.0|^7.1",
+        "phpunit/phpunit": "^5"
     },
     "authors": [
         {
