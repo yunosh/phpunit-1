@@ -1,0 +1,13 @@
+{
+    "name": "yunosh/phpunit-1",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^4"
+    },
+    "authors": [
+        {
+            "name": "Jan Schneider",
+            "email": "jan@horde.org"
+        }
+    ]
+}
