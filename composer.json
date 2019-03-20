@@ -1,7 +1,9 @@
 {
     "name": "yunosh/phpunit-1",
+    "description": "Test Dependency",
     "type": "library",
     "require": {
+        "php": "^5",
         "phpunit/phpunit": "^4"
     },
     "authors": [
@@ -9,5 +11,10 @@
             "name": "Jan Schneider",
             "email": "jan@horde.org"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "Horde_Test": "src/"
+        }
+    }
 }
